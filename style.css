@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+h3 {
+  margin-bottom: 50px;
+}
+.name-color {
+  color: orange;
+}
+.header-container {
+background-image: url(./images/top-banner.png);
+  display: flex;
+  background-repeat: no-repeat;
+}
+.name-container {
+  width: 40%;
+  margin-left: 70px;
+  padding-top: 50px;
+}
+.name-container p {
+  margin-bottom: 20px;
+  text-align:justify;
+}
+.name-container a {
+  text-decoration: none;
+  background-image:linear-gradient(orange,tomato) ;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.img-noman1{
+  width: 50%;
+  text-align: right;
+  padding-right: 50px;
+}
+.img-noman1 img{
+    width: 70%;
+    text-align: right;
+    padding-right: 50px;
+  }
