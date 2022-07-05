@@ -18,7 +18,7 @@ h3 {
   color: orange;
 }
 .header-container {
-background-image: url(./images/top-banner.png);
+  background-image: url(./images/top-banner.png);
   display: flex;
   background-repeat: no-repeat;
 }
@@ -29,24 +29,57 @@ background-image: url(./images/top-banner.png);
 }
 .name-container p {
   margin-bottom: 20px;
-  text-align:justify;
+  text-align: justify;
 }
 .name-container a {
   text-decoration: none;
-  background-image:linear-gradient(orange,tomato) ;
+  background-image: linear-gradient(orange, tomato);
   color: white;
   padding: 15px 40px;
   border-radius: 5px;
   font-weight: 900;
 }
 
-.img-noman1{
+.img-noman1 {
   width: 50%;
   text-align: right;
   padding-right: 50px;
 }
-.img-noman1 img{
-    width: 70%;
-    text-align: right;
-    padding-right: 50px;
-  }
+.img-noman1 img {
+  width: 70%;
+  text-align: right;
+  padding-right: 50px;
+}
+.main-container {
+  display: flex;
+  margin-top: 70px;
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.img-noman2 {
+  width: 50%;
+}
+.img-noman2 img {
+  width: 80%;
+  margin-left: 70px;
+  margin-top: -40px;
+}
+.dream-container {
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 100px;
+  margin-right: 100px;
+}
+.dream-container p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.dream-container a {
+  text-decoration: none;
+  background-image: linear-gradient(red, tomato);
+  color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-weight: 900;
+}
