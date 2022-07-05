@@ -3,6 +3,15 @@
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
 }
+
+/* Header section */
+.header-section {
+  background-image: url(./images/top-banner.png);
+  display: flex;
+  background-repeat: no-repeat;
+  margin-bottom: -30px;
+}
+
 h1 {
   font-size: 50px;
   margin-bottom: 40px;
@@ -17,11 +26,7 @@ h3 {
 .name-color {
   color: orange;
 }
-.header-container {
-  background-image: url(./images/top-banner.png);
-  display: flex;
-  background-repeat: no-repeat;
-}
+
 .name-container {
   width: 40%;
   margin-left: 70px;
@@ -30,6 +35,7 @@ h3 {
 .name-container p {
   margin-bottom: 20px;
   text-align: justify;
+  color: gray;
 }
 .name-container a {
   text-decoration: none;
@@ -41,7 +47,7 @@ h3 {
 }
 
 .img-noman1 {
-  width: 50%;
+  width: 55%;
   text-align: right;
   padding-right: 50px;
 }
@@ -50,15 +56,18 @@ h3 {
   text-align: right;
   padding-right: 50px;
 }
-.main-container {
+
+/* Dream section */
+
+.dream-section {
   display: flex;
-  margin-top: 70px;
+  margin-top: 30px;
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
 .img-noman2 {
-  width: 50%;
+  width: 55%;
 }
 .img-noman2 img {
   width: 80%;
@@ -74,6 +83,7 @@ h3 {
 .dream-container p {
   text-align: justify;
   margin-bottom: 20px;
+  color: gray;
 }
 .dream-container a {
   text-decoration: none;
@@ -82,4 +92,46 @@ h3 {
   padding: 15px 40px;
   border-radius: 5px;
   font-weight: 900;
+}
+
+/* Experiance section */
+
+.experiance-section {
+  display: flex;
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.full-stack {
+  width: 50%;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 10px 30px;
+  border-left: 5px solid red;
+  border-radius: 5px;
+  box-shadow: 10px 10px 50px black;
+}
+.baby-web {
+  width: 50%;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 10px 30px;
+  border-left: 5px solid blue;
+  border-radius: 5px;
+  box-shadow: 10px 10px 50px black;
+}
+.experiance-section span {
+  color: orange;
+}
+
+/* Footer Section */
+
+.footer-section {
+  text-align: center;
+  margin-top: 120px;
+  padding: 20px;
+}
+.footer-section h5 {
+  font-size: 18px;
+  font-weight: 900;
+  color: gray;
 }
